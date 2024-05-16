@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import MyComponent from './MyComponent.js'
 
 function App() {
   return (
@@ -7,16 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Estoy empezando con React JS
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blan"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <MyComponent> </MyComponent>
       </header>
     </div>
   );
