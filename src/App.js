@@ -10,7 +10,7 @@ function App() {
         <p>
           Estoy empezando con React JS
         </p>
-        <MyComponent> </MyComponent>
+        <MyComponent/>
       </header>
     </div>
   );
